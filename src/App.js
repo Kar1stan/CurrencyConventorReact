@@ -6,7 +6,7 @@ import DropdownTo from "./components/DropdownTo"
 import Switch from "./components/Switch"
 import Axios from 'axios';
 import 'react-dropdown/style.css';
-import {getApi} from "./helpers/getCurrencyApi."
+//import {getApi} from "./helpers/getCurrencyApi."
 
 
 function App() {
