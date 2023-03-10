@@ -20,7 +20,11 @@ function App() {
   
   // Calling the api whenever the dependency changes
   useEffect(() => {
-    setInfo(getApi(from));
+    Axios.get(
+`https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${from}.json`)
+   .then((res) => {
+      setInfo(res.data[from]);
+    })
   }, [from]);
   
   // Calling the convert function whenever
