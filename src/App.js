@@ -4,6 +4,7 @@ import Result from "./components/Result"
 import DropdownFrom from "./components/DropdownFrom"
 import DropdownTo from "./components/DropdownTo"
 import Switch from "./components/Switch"
+import Axios from 'axios';
 import 'react-dropdown/style.css';
 import {getApi} from "./helpers/getCurrencyApi."
 
